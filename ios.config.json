@@ -1,0 +1,9 @@
+{
+   "AppName":"",
+   "Version":"0.1",
+   "BuildVersion":"0.1.0",
+   "AppId":"com.tuobian.weexfirstapp",
+   "CodeSign":"sdfsdf",
+   "Profile":"*",
+   "WeexBundle":"index.js"
+}
