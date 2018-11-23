@@ -2836,13 +2836,102 @@ module.exports = __vue_exports__
 /***/ (function(module, exports) {
 
 module.exports = {
-  "list": {
-    "width": "750",
-    "backgroundColor": "#EFEFEF"
+  "sep_line_short": {
+    "marginLeft": "50",
+    "marginRight": "50",
+    "height": "2",
+    "backgroundColor": "#cccccc"
   },
-  "banner-image": {
-    "width": "750",
-    "height": "235"
+  "sep_line": {
+    "marginLeft": "0",
+    "marginRight": "0",
+    "height": "2",
+    "backgroundColor": "#cccccc"
+  },
+  "list_panel": {
+    "marginTop": "80",
+    "marginLeft": "50",
+    "marginRight": "50"
+  },
+  "work_exp_content": {
+    "marginTop": "25",
+    "color": "#666666",
+    "fontSize": "30"
+  },
+  "work_exp_dep": {
+    "marginTop": "50",
+    "color": "#000000",
+    "fontSize": "35"
+  },
+  "work_exp_time": {
+    "marginTop": "25",
+    "color": "#666666",
+    "fontSize": "30"
+  },
+  "work_exp_title": {
+    "marginTop": "25",
+    "color": "#666666",
+    "fontSize": "35"
+  },
+  "work_exp_com": {
+    "marginTop": "25",
+    "color": "#000000",
+    "fontSize": "40"
+  },
+  "block": {
+    "marginTop": "25",
+    "marginBottom": "60"
+  },
+  "self_desc_content": {
+    "marginLeft": "25",
+    "marginTop": "25",
+    "marginBottom": "25",
+    "marginRight": "25",
+    "color": "#666666",
+    "fontSize": "30"
+  },
+  "self_desc": {
+    "marginTop": "35",
+    "marginLeft": "50",
+    "marginRight": "50",
+    "borderColor": "#F5F5F5",
+    "borderWidth": "3"
+  },
+  "block_title": {
+    "marginLeft": "50",
+    "marginTop": "50",
+    "color": "#000000",
+    "fontSize": "45"
+  },
+  "header": {
+    "flexDirection": "row",
+    "marginBottom": "50"
+  },
+  "avatar": {
+    "position": "absolute",
+    "right": "50",
+    "top": "50",
+    "width": "212",
+    "height": "212",
+    "borderRadius": "212"
+  },
+  "text_usrname": {
+    "marginLeft": "50",
+    "marginTop": "50",
+    "color": "#000000",
+    "fontSize": "80"
+  },
+  "text_company": {
+    "marginLeft": "50",
+    "marginTop": "10",
+    "color": "#666666",
+    "fontSize": "30"
+  },
+  "text_usr_exp": {
+    "marginLeft": "50",
+    "marginTop": "15",
+    "color": "#666666",
+    "fontSize": "30"
   }
 }
 
@@ -2856,174 +2945,102 @@ module.exports = {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
-var _Tab = __webpack_require__(13);
-
-var _Tab2 = _interopRequireDefault(_Tab);
-
-var _AppList = __webpack_require__(17);
-
-var _AppList2 = _interopRequireDefault(_AppList);
-
-var _Card = __webpack_require__(21);
-
-var _Card2 = _interopRequireDefault(_Card);
-
-var _Floor = __webpack_require__(25);
-
-var _Floor2 = _interopRequireDefault(_Floor);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-var dataset = {
-  apps: [{
-    type: 'apps',
-    apps: [{ title: '热门搭配', icon: 'https://gw.alicdn.com/tfs/TB1wKS.h8fH8KJjy1XbXXbLdXXa-140-140.png_150x10000.jpg' }, { title: '网红大衣', icon: 'https://gw.alicdn.com/tfs/TB1oM1qaMvD8KJjy0FlXXagBFXa-140-140.png_150x10000.jpg' }, { title: '四件套', icon: 'https://gw.alicdn.com/tfs/TB1Oiz0b22H8KJjy0FcXXaDlFXa-140-140.png_150x10000.jpg' }, { title: '人气彩妆', icon: 'https://gw.alicdn.com/tfs/TB1LhJzQFXXXXabXXXXXXXXXXXX-140-140.png_150x10000.jpg' }]
-  }, {
-    type: 'apps',
-    apps: [{ title: '红人新品', icon: 'https://gw.alicdn.com/tfs/TB1L5upaH_I8KJjy1XaXXbsxpXa-140-140.png_150x10000.jpg' }, { title: '网红拖鞋', icon: 'https://gw.alicdn.com/tfs/TB1w.ocb3DD8KJjy0FdXXcjvXXa-140-140.png_150x10000.jpg' }, { title: '腔调掌柜', icon: 'https://img.alicdn.com/tfs/TB1sWLoRVXXXXbdXXXXXXXXXXXX-140-140.png' }, { title: '时尚新品', icon: 'https://gw.alicdn.com/tfs/TB10.R_SpXXXXbtXXXXXXXXXXXX-140-140.png' }]
-  }, {
-    type: 'apps',
-    apps: [{ title: '潮流穿搭', icon: 'https://img.alicdn.com/tfs/TB1fRVASpXXXXXdXXXXXXXXXXXX-140-140.png' }, { title: '暖心好物', icon: 'https://img.alicdn.com/tfs/TB1_TkdPVXXXXcJXXXXXXXXXXXX-140-140.png' }, { title: '明星面膜', icon: 'https://img.alicdn.com/tps/TB1goZhPXXXXXXfXpXXXXXXXXXX-118-118.png_170x120Q50s50.jpg' }, { title: '彩妆香氛', icon: 'https://img.alicdn.com/tps/TB1zUTQPXXXXXaZaXXXXXXXXXXX-118-118.png_170x120Q50s50.jpg' }]
-  }],
-  tab: [{
-    type: 'tab',
-    tabs: [{ title: '首页', icon: 'https://gw.alicdn.com/tfs/TB19YESOVXXXXaNaXXXXXXXXXXX-45-45.png' }, { title: '耍帅', icon: 'https://gw.alicdn.com/tfs/TB1I2E9OVXXXXbFXVXXXXXXXXXX-45-45.png' }, { title: '旅行', icon: 'https://gw.alicdn.com/tfs/TB1gUhyPXXXXXX5XXXXXXXXXXXX-45-45.png' }, { title: '潮玩', icon: 'https://img.alicdn.com/tfs/TB1D4RzQFXXXXcoXpXXXXXXXXXX-45-45.png' }, { title: '穿搭', icon: 'https://gw.alicdn.com/tfs/TB1N1.6OVXXXXXqaXXXXXXXXXXX-45-45.png' }]
-  }],
-  banner: [{ type: 'banner', src: 'https://img.alicdn.com/imgextra/i4/184/TB2LPjVhMLD8KJjSszeXXaGRpXa_!!184-0-luban.jpg_q50.jpg' }, { type: 'banner', src: 'https://aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg' }, { type: 'banner', src: 'https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg' }, { type: 'banner', src: 'https://img.alicdn.com/imgextra/i4/61/TB24IbTh3fH8KJjy1zcXXcTzpXa_!!61-0-yamato.jpg_q50.jpg' }, { type: 'banner', src: 'https://gw.alicdn.com/imgextra/i2/145/TB24D30cMjN8KJjSZFkXXaboXXa_!!145-0-lubanu.jpg_q50.jpg' }, { type: 'banner', src: 'https://gw.alicdn.com/imgextra/i3/161/TB2syUXcJLO8KJjSZPcXXaV0FXa_!!161-0-lubanu.jpg_q50.jpg' }, { type: 'banner', src: 'https://gw.alicdn.com/imgextra/i4/167/TB2wrL8h26H8KJjSspmXXb2WXXa_!!167-0-lubanu.jpg_q50.jpg' }, { type: 'banner', src: 'https://gw.alicdn.com/imgextra/i2/25/TB2GgAmhS_I8KJjy0FoXXaFnVXa_!!25-0-lubanu.jpg_q50.jpg' }, { type: 'banner', src: 'https://gw.alicdn.com/imgextra/TB2uQAFhb_I8KJjy1XaXXbsxpXa_!!89-0-lubanu.jpg_q50.jpg' }, { type: 'banner', src: 'https://img.alicdn.com/simba/img/TB19heYdwn.PuJjSZFkSuw_lpXa.jpg_q50.jpg' }, { type: 'banner', src: 'https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg' }, { type: 'banner', src: 'https://img.alicdn.com/imgextra/i1/174/TB2xzb0eOqAXuNjy1XdXXaYcVXa_!!174-0-luban.jpg_q50.jpg' }, { type: 'banner', src: 'https://gw.alicdn.com/imgextra/TB27XSvg6nD8KJjSspbXXbbEXXa_!!12-0-lubanu.jpg_q50.jpg' }, { type: 'banner', src: 'https://gw.alicdn.com/imgextra/TB2cF.xfTnI8KJjSszbXXb4KFXa_!!112-0-lubanu.jpg_q50.jpg' }, { type: 'banner', src: 'https://gw.alicdn.com/imgextra/TB2ZweVg9_I8KJjy0FoXXaFnVXa_!!158-0-lubanu.jpg_q50.jpg' }, { type: 'banner', src: 'https://gw.alicdn.com/imgextra/TB2O_AKctHO8KJjSZFtXXchfXXa_!!53-0-lubanu.jpg_q50.jpg' }],
-  floor: [{
-    type: 'floor',
-    title: '就造专属感，给孩子寻个座椅好玩伴',
-    desc: '犹记得儿时的风筝带着斑斓的色彩在天空飘过；那小河里躲迷藏的鱼虾，还待着小伙伴们一起去捕捉，如今的孩童没有了这些简单且纯粹的娱乐项目，生活在高楼城市中的他们，该当怎样度过自己的童年才是美好的？',
-    pictures: ['https://gw.alicdn.com/tfscom/i3/48292642/TB29OtIakz_F1JjSZFkXXcCaXXa_!!48292642.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/imgextra/i4/706778912/TB2hvwSXBvBIuJjy1zeXXbGBpXa_!!706778912-0-beehive-scenes.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/imgextra/i3/706778912/TB2wX.fcxz9F1JjSZFsXXaCGVXa_!!706778912-0-beehive-scenes.jpg_250x250q90s200.jpg'],
-    count: 237
-  }, {
-    type: 'floor',
-    title: '睡袍穿不对，脱光也不媚！',
-    desc: '“Ihatemynightgown（我讨厌我的睡袍）.”经典电影《罗马假日》中，赫本饰演的安妮公主躺在梦幻的宫廷大床上，抱怨她身上那华丽的大睡袍臃肿不便，为公主的浪漫逃逸埋下伏笔。想象一下，男朋友刚刚',
-    pictures: ['https://gw.alicdn.com/imgextra/i3/3044653839/TB2a_nAXgsSMeJjSspdXXXZ4pXa_!!3044653839-0-daren.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/imgextra/i1/3044653839/TB2qrPCXiERMeJjSspiXXbZLFXa_!!3044653839-0-daren.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/imgextra/i1/3044653839/TB2ySjuXgsSMeJjSspeXXa77VXa_!!3044653839-0-beehive-scenes.jpg_250x250q90s200.jpg'],
-    count: 876
-  }, {
-    type: 'floor',
-    title: '上天入海？运动相机帮你搞定',
-    desc: '现如今相机好像成为了我们每个人必不可少的装备，不管是专业的相机还是我们可拍照的手机，我们使用到它的频率也越来越高。为了追求更好的拍摄质量，人们似乎也愿意花更多的钱去购买好的拍摄装备',
-    pictures: ['https://gw.alicdn.com/tfscom/i3/462856946/TB2VzQswB4lpuFjy1zjXXcAKpXa_!!462856946.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/tfscom/i2/2811920170/TB2rCqHpVXXXXcZXpXXXXXXXXXX_!!2811920170.png_250x250.jpg', 'https://gw.alicdn.com/imgextra/i4/836552381/TB2c1q3aZSfF1JjSsplXXbrKFXa_!!836552381-0-beehive-scenes.jpg_250x250q90s200.jpg'],
-    count: 59
-  }, {
-    type: 'floor',
-    title: '关于培根的那些事，教你吃得门清',
-    desc: '培根一直被认为是早餐的头盘，早上烤两片面包，平底锅煎一片培根、一个鸡蛋，和生菜一起夹在面包中，有荤有素，就是一顿丰富美味的西式早餐。培根的英文名是“Bacon”，原意是烟熏的猪肋条肉，或烟熏背脊肉',
-    pictures: ['https://gw.alicdn.com/imgextra/i2/603964020/TB24zFbarwTMeJjSszfXXXbtFXa_!!603964020-0-daren.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/imgextra/i2/603964020/TB2txtdarsTMeJjy1zcXXXAgXXa_!!603964020-0-daren.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/tfscom/i3/1635378022/TB2plKDbFXXXXaTXpXXXXXXXXXX-1635378022.jpg_250x250q90s200.jpg'],
-    count: 3576
-  }, {
-    type: 'floor',
-    title: '轻奢风来袭，皮艺床打造典雅居室',
-    desc: '对于追求生活高品质感的小伙伴来说，皮艺家具是展现其高格调的途径之一。想要营造出奢华质感的卧室环境，大气庄重的皮床当然是不错的选择。特别是简欧风或是美式古典风格的家居环境，如果配以皮艺床简直就是点睛之笔',
-    pictures: ['https://gw.alicdn.com/imgextra/i2/787557947/TB2erNKawoQMeJjy0FoXXcShVXa_!!787557947-0-beehive-scenes.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/imgextra/i1/787557947/TB2KANyaBUSMeJjy1zkXXaWmpXa_!!787557947-0-beehive-scenes.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/imgextra/i3/787557947/TB2lwdGayERMeJjy0FcXXc7opXa_!!787557947-0-beehive-scenes.jpg_250x250q90s200.jpg'],
-    count: 36
-  }, {
-    type: 'floor',
-    title: '提高品质生活，从用好水开始',
-    desc: '我们生活中每天都要喝水、用水，可是你真的喝到、用到好水了么？为了得到更高品质的生活，我们需要更多的好东西让我们的生活更有档次，那不如就从改变你每天都要亲密接触的水开始吧',
-    pictures: ['https://gw.alicdn.com/imgextra/i2/1904229646/TB2dRg4dgoQMeJjy0FpXXcTxpXa_!!1904229646-2-daren.png_250x250.jpg', 'https://gw.alicdn.com/imgextra/i1/1904229646/TB2JtOjfOAKL1JjSZFoXXagCFXa_!!1904229646-2-daren.png_250x250.jpg', 'https://gw.alicdn.com/imgextra/i1/1904229646/TB2BSXjdwsSMeJjSspeXXa77VXa_!!1904229646-2-daren.png_250x250.jpg'],
-    count: 74
-  }, {
-    type: 'floor',
-    title: '酒鬼到了意大利，收不住的红酒心',
-    desc: '意大利是一个集古典与艺术于一身的国度，这里是艺术的发源地之一，也是欧洲最早种植葡萄的国家之一。意大利的酿酒历史超过4000年，本地葡萄品种过千不止，古希腊人称其为“葡萄酒之国”',
-    pictures: ['https://gw.alicdn.com/imgextra/i1/2872639756/TB21lwtXjihSKJjy0FiXXcuiFXa_!!2872639756-0-daren.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/imgextra/i1/2872639756/TB2zgRJdwMPMeJjy1XdXXasrXXa_!!2872639756-0-daren.jpg_250x250q90s200.jpg', 'https://gw.alicdn.com/imgextra/i2/2872639756/TB2Ki0NdBUSMeJjSspfXXX0VFXa_!!2872639756-0-daren.jpg_250x250q90s200.jpg'],
-    count: 182
-  }],
-  card: [{
-    type: 'card',
-    poster: 'http://gw.alicdn.com/tps/i4/1611893164/TB2t4mtXJqUQKJjSZFIXXcOkFXa_!!0-juitemmedia.jpg_320x320q80s150.jpg',
-    title: '澳洲牛排10份装送刀叉酱料黄油',
-    subtitle1: '送平底锅前3000仅78',
-    subtitle2: '私厨经典 镇店套餐',
-    got: 173,
-    progress: 35,
-    price: { real: 108, sale: 240.00 }
-  }, {
-    type: 'card',
-    poster: 'http://gw.alicdn.com/tps/i2/2838892713/TB2ma39aqmgSKJjSsphXXcy1VXa_!!0-juitemmedia.jpg_320x320q80s150.jpg',
-    title: 'HUAWEI P10',
-    subtitle1: '买赠好礼6期免息',
-    subtitle2: '6期免息',
-    got: 996,
-    progress: 89,
-    price: { real: 3488, sale: 3488.00 }
-  }, {
-    type: 'card',
-    poster: 'http://gw.alicdn.com/tps/i3/902257410/TB2pzypfU3IL1JjSZFMXXajrFXa_!!0-juitemmedia.jpg_320x320q80s150.jpg',
-    title: '海宁真皮皮衣男绵羊皮夹克外套',
-    subtitle1: '店内领券下单438',
-    subtitle2: '限送500双皮手套',
-    got: 296,
-    progress: 16,
-    price: { real: 538, sale: 3080.00 }
-  }, {
-    type: 'card',
-    poster: 'https://gw.alicdn.com/tps/i4/0/TB2Mx3Jg4TI8KJjSspiXXbM4FXa_!!0-juitemmedia.jpg_320x320q80s150.jpg',
-    title: '玛丽黛佳元气风动三色腮红正品',
-    subtitle1: '满108领券立减10元',
-    subtitle2: '宛若天生粉红好气色',
-    got: 1457,
-    progress: 61,
-    price: { real: 49, sale: 69.80 }
-  }, {
-    type: 'card',
-    poster: 'https://gw.alicdn.com/tps/i2/0/TB2i25DgN6I8KJjSszfXXaZVXXa_!!0-juitemmedia.jpg_320x320q80s150.jpg',
-    title: '王小二高山脐橙，酸甜如初恋',
-    subtitle1: '前3分钟半价',
-    subtitle2: 'VC仓库，酸甜如初恋',
-    got: 598,
-    progress: 42,
-    price: { real: 29.8, sale: 56.10 }
-  }]
-
-  // generate list data
-};function createListData(order) {
-  var array = [];
-  var list = order.split(/[\s,]+/);
-  for (var i = 0; i < list.length; ++i) {
-    var candidates = dataset[list[i]];
-    if (candidates) {
-      for (var j = 0; j < candidates.length; ++j) {
-        array.push(candidates[j]);
-      }
-    }
-  }
-  return array;
-}
-var initial = 'tab,banner,apps,card,floor';
-
-var modal = weex.requireModule('modal');
 exports.default = {
-  components: { Tab: _Tab2.default, AppList: _AppList2.default, Card: _Card2.default, Floor: _Floor2.default },
   data: function data() {
     return {
-      longList: createListData(initial)
+      self_desc_content: '团队合作方面, 本人喜欢多沟通，以往工作养成了每日晨会的习惯, 时间控制在15分钟左右, 有需要的时候碰面交流比文档沟通更快捷, 尽量避免没必要的文档, 提高工作效率, 平时大家技术博客共享',
+      work_exps: [{
+        com: '拓边',
+        title: '项目组长',
+        time: '2013.09-至今',
+        department: '研发部',
+        desc: '1. 与上市公司石基信息合作开发西软酒店管理系统微信端酒店预订系统. 该项目主要包括客房预订模块, 酒店导航模块, 客服联系模块, 下单通知后台模块. 在这个项目里本人主要负责与西软的开发人员进行API对接, 同时本人负责后台逻辑(PHP)编写. 在项目管理方面, 团队严格执行按照技术API文档先行的原则, 制定一致的编码规则, 封装公有类, 提取常用函数等, 有效的提升了开发效率.\n' + '\n' + '2. 为对白茶舍开发web端在线商城.\n' + '\n' + '3. 为宁波樽肆红酒开发移动端hybrid框架双平台在线商城https://itunes.apple.com/us/app/z.selection/id996293119?l=zh&ls=1&mt=8该项目是一个标准的电商. 在本人主导下, 该项目采取了Hybrid技术解决方案, 让web端一次开发, 多平台运行, 将原有的开发时间缩小了50%, 同时本人承担了iOS客户端开发hybrid框架搭建工作. \n' + '\n' + '4. 为宁波中为星瓷砖拼花开发iPad 3D第一视角瓷砖掌上体验移动端产品.该项目是一个3D项目, 包含场景建模, 灯光渲染, 交互界面等. 本人主要负责管理整体项目进度, 与建模人员和设计人员对接工作, 并独立完成所有编码工作. 由于首次接手3D项目开发, 中途发生了一些卡壳的状况, 并在场景渲染中遇到诸多问题, 有惊无险, 最终圆满完成开发任务.\n' + '\n' + '5. 微信掌中宝(微信端一站式解决方案) http://wxzzb.com/\n' + '\n' + '6. 牛牛在线棋牌游戏(手游)\n' + '\n' + '7. 飞吧葫芦娃(2D手游)\n' + '\n' + '8. 大富翁(iOS端积分墙应用)\n' + '\n' + '9. 快点(iOS通知栏插件)\n' + '\n' + '10. 点金(Web端拖拽式量化投资工具)该项目是一个互联网金融项目, 主要是为了满足不会编程的人也可以做量化投资. 主要功能包含拖拽实现技术面条件选择, 运行回测, 回测结果包含净值曲线, 收益率, beta等, 并配以机器学习以傻瓜式优化策略, 对参数进一步改进. 该项目是本人一手提出并决定立项, 本人主要负责研究竞品, 编写机器学习算法, 后台运算逻辑, 回测模块, 生成自动化交易代码等.\n' + '\n' + '自我介绍:scrum开发坚定执行者.项目开发方面, 本人习惯于将一个项目分解为多个sprint, 每个阶段都是可用模型, 循环迭代, 最终成型, 这样的好处在于能够在快速开发的节奏中, 也能及时添加/移除功能, 并在随时有可用模型展示. 团队合作方面, 本人喜欢多沟通，以往工作养成了每日晨会的习惯, 时间控制在15分钟左右, 有需要的时候碰面交流比文档沟通更快捷, 尽量避免没必要的文档, 提高工作效率, 平时大家技术博客共享，两个星期左右的频率做一次code review等等。'
+      }, {
+        com: '欣欣旅游',
+        title: 'iOS开发工程师',
+        time: '2013.01-2013.09',
+        department: '研发部',
+        desc: '开发欣欣旅游app，负责列表页，首页，旅游目的地页面\n' + '\n' + '在开发中我们在积极配合业务需求的同时，不断进行重构，抽离公用组件，提升app运行速度和持续集成方面做了诸多努力，满足了老板随时带着正在研发中的app外出开会的需求\n' + '\n' + '开发，欣旅通（欣欣同业）app负责通讯界面、个人主页的开发。\n' + '\n' + '开发舆情卫士. 该项目主要包括百度微博舆情后台抓取, 文本分析, 关键词设置, 移动端舆情扫描查看最新舆情等功能. 移动的开发工作由本人完成'
+      }, {
+        com: 'RingCentral厦门研发中心',
+        title: 'iOS自动化测试工程师',
+        time: '2012.02-2012.07',
+        department: '研发部',
+        desc: '搭建Jenkins自动化测试框架, 做持续集成, 根据测试用例, 编写自动化测试代码，在与开发团队的配合中，我们发现开发团队不太喜欢给UI元素打标签，同时业务需求经常变更导致UI tree结构经常发生变化，这时候对于我们自动化团队的要求更高了，我们迎难而上，增加代码的鲁棒性，在一个个的sprint中发挥了重要的力量'
+      }],
+      prj_exps: [{
+        com: '欣欣旅游线路',
+        title: '2013.02-2013.09',
+        desc: '该项目是2C的旅游类电商项目, 是欣欣旅游的独特旅游线路产品. \n' + '包含了目的地定位, 旅游产品搜索, 旅游产品下单, \n' + '电话咨询, 旅游产品列表页, 详情页,联系客服, \n' + '付款, 用户评价等模块. \n' + '摸透了整个电商App开发的流程, 在开发过程中不断的重构和code review让我意识到开发不仅仅要满足业务需求, 同时为了整个项目的可维护性, 做出的工作一点都不比业务层面的工作量小\n' + '\n' + '\n' + '项目链接: https://itunes.apple.com/cn/app/id1312734679?ls=1&mt=8'
+      }, {
+        com: '同业助手',
+        title: '2013.02-2013.09',
+        desc: '厦门欣欣旅游(上市公司腾邦国际子公司, 天使投资人蔡文胜)\n' + '\n' + '欣旅通（欣欣同业）app\n' + '\n' + '\n' + '\n' + '包含同业询价(IM)功能, 个人主页(交换名片等)社交功能, 同业信息交换板块(timeline)\n' + '\n' + '负责通讯界面、个人主页等功能开发\n' + '\n' + '项目链接: https://itunes.apple.com/cn/app/id642122211?ls=1&mt=8'
+      }, {
+        com: '同业助手',
+        title: '2012.02-2012.09',
+        desc: 'app store链接:\n' + '\n' + 'https://itunes.apple.com/us/app/ringcentral-phone/id293305984?mt=8\n' + '\n' + '\n' + '\n' + '美国上市公司RingCentral的App\n' + '\n' + '这是一个IP电话云计算服务app, 主要是提供给中小企业工作沟通, 主要功能有sms, fax, IP云电话, voice mail等\n' + '\n' + '\n' + '\n' + '负责iOS自动化测试的框架搭建和代码编写'
+      }]
     };
   }
 };
@@ -3033,1002 +3050,95 @@ exports.default = {
 /***/ (function(module, exports) {
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('recycle-list', {
-    staticClass: ["list"],
-    appendAsTree: true,
-    attrs: {
-      "listData": _vm.longList,
-      "bindingExpression": "longList",
-      "alias": "item",
-      "index": "index",
-      "switch": "type",
-      "append": "tree"
-    }
-  }, [_c('cell-slot', {
-    appendAsTree: true,
-    attrs: {
-      "case": "tab",
-      "append": "tree"
-    }
-  }, [_c('tab', {
-    attrs: {
-      "tabs": {
-        "@binding": "item.tabs"
-      },
-      "@inRecycleList": true
-    }
-  })], 1), _c('cell-slot', {
-    appendAsTree: true,
-    attrs: {
-      "case": "banner",
-      "append": "tree"
-    }
-  }, [_c('image', {
-    staticClass: ["banner-image"],
-    attrs: {
-      "src": {
-        "@binding": "item.src"
-      }
-    }
-  })]), _c('cell-slot', {
-    appendAsTree: true,
-    attrs: {
-      "case": "apps",
-      "append": "tree"
-    }
-  }, [_c('app-list', {
-    attrs: {
-      "apps": {
-        "@binding": "item.apps"
-      },
-      "@inRecycleList": true
-    }
-  })], 1), _c('cell-slot', {
-    appendAsTree: true,
-    attrs: {
-      "case": "card",
-      "append": "tree"
-    }
-  }, [_c('card', {
-    attrs: {
-      "card": {
-        "@binding": "item"
-      },
-      "@inRecycleList": true
-    }
-  })], 1), _c('cell-slot', {
-    appendAsTree: true,
-    attrs: {
-      "case": "floor",
-      "append": "tree"
-    }
-  }, [_c('floor', {
-    attrs: {
-      "floor": {
-        "@binding": "item"
-      },
-      "@inRecycleList": true
-    }
-  })], 1)], 1)
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ }),
-/* 9 */,
-/* 10 */,
-/* 11 */,
-/* 12 */,
-/* 13 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = []
-
-/* styles */
-__vue_styles__.push(__webpack_require__(14)
-)
-
-/* script */
-__vue_exports__ = __webpack_require__(15)
-
-/* template */
-var __vue_template__ = __webpack_require__(16)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/nobbyheell/Documents/workspace/weex_first_app/src/Tab.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__["@render"] = __vue_template__["@render"]
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-d634e6a8"
-__vue_options__.style = __vue_options__.style || {}
-__vue_styles__.forEach(function (module) {
-  for (var name in module) {
-    __vue_options__.style[name] = module[name]
-  }
-})
-if (typeof __register_static_styles__ === "function") {
-  __register_static_styles__(__vue_options__._scopeId, __vue_styles__)
-}
-
-module.exports = __vue_exports__
-
-
-/***/ }),
-/* 14 */
-/***/ (function(module, exports) {
-
-module.exports = {
-  "tab-cell": {
-    "flexDirection": "row",
-    "backgroundColor": "#f51438"
-  },
-  "tab": {
-    "height": "120",
-    "width": "150",
-    "justifyContent": "center",
-    "alignItems": "center"
-  },
-  "tab-icon": {
-    "width": "45",
-    "height": "45"
-  },
-  "tab-title": {
-    "fontSize": "28",
-    "color": "#FFFFFF",
-    "marginTop": "10"
-  }
-}
-
-/***/ }),
-/* 15 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-exports.default = {
-  props: ['tabs']
-};
-
-/***/ }),
-/* 16 */
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["tab-cell"]
-  }, _vm._l((_vm.tabs), function(tab, t) {
-    return _c('div', {
-      key: t,
-      staticClass: ["tab"]
-    }, [_c('image', {
-      staticClass: ["tab-icon"],
+  return _c('div', [_vm._m(0), _c('div', {
+    staticClass: ["block"]
+  }, [_c('div', {
+    staticClass: ["sep_line"]
+  }), _c('text', {
+    staticClass: ["block_title"]
+  }, [_vm._v("自我描述")]), _c('div', {
+    staticClass: ["self_desc"]
+  }, [_c('text', {
+    staticClass: ["self_desc_content"]
+  }, [_vm._v(_vm._s(_vm.self_desc_content))])])]), _c('div', {
+    staticClass: ["block"]
+  }, [_c('text', {
+    staticClass: ["block_title"]
+  }, [_vm._v("工作经历")]), _c('list', _vm._l((_vm.work_exps), function(num, i) {
+    return _c('cell', {
+      key: i,
+      appendAsTree: true,
       attrs: {
-        "src": tab.icon
+        "append": "tree"
       }
-    }), _c('text', {
-      staticClass: ["tab-title"]
-    }, [_vm._v(_vm._s(tab.title))])])
-  }))
-},"@render":function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["tab-cell"],
-    attrs: {
-      "@isComponentRoot": true,
-      "@templateId": _vm._uid,
-      "@componentProps": _vm.$props || {}
-    }
+    }, [_c('div', {
+      staticClass: ["list_panel"]
+    }, [_c('text', {
+      staticClass: ["work_exp_com"]
+    }, [_vm._v(_vm._s(num['com']))]), _c('text', {
+      staticClass: ["work_exp_title"]
+    }, [_vm._v(_vm._s(num['title']))]), _c('text', {
+      staticClass: ["work_exp_time"]
+    }, [_vm._v(_vm._s(num['time']))]), _c('text', {
+      staticClass: ["work_exp_dep"]
+    }, [_vm._v(_vm._s(num['department']))]), _c('text', {
+      staticClass: ["work_exp_content"]
+    }, [_vm._v(_vm._s(num['desc']))])])])
+  }))]), _c('div', {
+    staticClass: ["block"]
   }, [_c('div', {
-    key: {
-      "@binding": "t"
-    },
-    staticClass: ["tab"],
-    attrs: {
-      "[[repeat]]": {
-        "@expression": "tabs",
-        "@alias": "tab",
-        "@index": "t"
-      }
-    }
-  }, [_c('image', {
-    staticClass: ["tab-icon"],
-    attrs: {
-      "src": {
-        "@binding": "tab.icon"
-      }
-    }
+    staticClass: ["sep_line_short"]
   }), _c('text', {
-    staticClass: ["tab-title"],
-    attrs: {
-      "value": {
-        "@binding": "tab.title"
-      }
-    }
-  })])])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ }),
-/* 17 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = []
-
-/* styles */
-__vue_styles__.push(__webpack_require__(18)
-)
-
-/* script */
-__vue_exports__ = __webpack_require__(19)
-
-/* template */
-var __vue_template__ = __webpack_require__(20)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/nobbyheell/Documents/workspace/weex_first_app/src/AppList.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__["@render"] = __vue_template__["@render"]
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-31fc66f6"
-__vue_options__.style = __vue_options__.style || {}
-__vue_styles__.forEach(function (module) {
-  for (var name in module) {
-    __vue_options__.style[name] = module[name]
-  }
-})
-if (typeof __register_static_styles__ === "function") {
-  __register_static_styles__(__vue_options__._scopeId, __vue_styles__)
-}
-
-module.exports = __vue_exports__
-
-
-/***/ }),
-/* 18 */
-/***/ (function(module, exports) {
-
-module.exports = {
-  "app-cell": {
-    "width": "750",
-    "flexDirection": "row",
-    "justifyContent": "space-around",
-    "backgroundColor": "#FFFFFF"
-  },
-  "app-box": {
-    "width": "180",
-    "paddingTop": "15",
-    "paddingRight": "15",
-    "paddingBottom": "15",
-    "paddingLeft": "15",
-    "alignItems": "center"
-  },
-  "app-title": {
-    "fontSize": "30",
-    "textAlign": "center",
-    "paddingTop": "15",
-    "color": "#999999"
-  },
-  "app-icon": {
-    "width": "140",
-    "height": "140"
-  }
-}
-
-/***/ }),
-/* 19 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-exports.default = {
-  props: ['apps']
-};
-
-/***/ }),
-/* 20 */
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["app-cell"]
-  }, _vm._l((_vm.apps), function(app, a) {
-    return _c('div', {
-      key: a,
-      staticClass: ["app-box"]
-    }, [_c('image', {
-      staticClass: ["app-icon"],
+    staticClass: ["block_title"]
+  }, [_vm._v("项目经历")]), _c('list', _vm._l((_vm.prj_exps), function(num, i) {
+    return _c('cell', {
+      key: i,
+      appendAsTree: true,
       attrs: {
-        "src": app.icon
+        "append": "tree"
       }
-    }), _c('text', {
-      staticClass: ["app-title"]
-    }, [_vm._v(_vm._s(app.title))])])
-  }))
-},"@render":function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["app-cell"],
-    attrs: {
-      "@isComponentRoot": true,
-      "@templateId": _vm._uid,
-      "@componentProps": _vm.$props || {}
-    }
-  }, [_c('div', {
-    key: {
-      "@binding": "a"
-    },
-    staticClass: ["app-box"],
-    attrs: {
-      "[[repeat]]": {
-        "@expression": "apps",
-        "@alias": "app",
-        "@index": "a"
-      }
-    }
-  }, [_c('image', {
-    staticClass: ["app-icon"],
-    attrs: {
-      "src": {
-        "@binding": "app.icon"
-      }
-    }
-  }), _c('text', {
-    staticClass: ["app-title"],
-    attrs: {
-      "value": {
-        "@binding": "app.title"
-      }
-    }
-  })])])
-},staticRenderFns: []}
-module.exports.render._withStripped = true
-
-/***/ }),
-/* 21 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = []
-
-/* styles */
-__vue_styles__.push(__webpack_require__(22)
-)
-
-/* script */
-__vue_exports__ = __webpack_require__(23)
-
-/* template */
-var __vue_template__ = __webpack_require__(24)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/nobbyheell/Documents/workspace/weex_first_app/src/Card.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__["@render"] = __vue_template__["@render"]
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-3ffdd889"
-__vue_options__.style = __vue_options__.style || {}
-__vue_styles__.forEach(function (module) {
-  for (var name in module) {
-    __vue_options__.style[name] = module[name]
-  }
-})
-if (typeof __register_static_styles__ === "function") {
-  __register_static_styles__(__vue_options__._scopeId, __vue_styles__)
-}
-
-module.exports = __vue_exports__
-
-
-/***/ }),
-/* 22 */
-/***/ (function(module, exports) {
-
-module.exports = {
-  "row": {
-    "flexDirection": "row"
-  },
-  "card": {
-    "width": "710",
-    "marginTop": "20",
-    "marginRight": "20",
-    "marginBottom": "20",
-    "marginLeft": "20",
-    "backgroundColor": "#FFFFFF",
-    "borderRadius": "15"
-  },
-  "card-banner": {
-    "width": "222",
-    "height": "60"
-  },
-  "card-side": {
-    "paddingTop": "20",
-    "paddingRight": "20",
-    "paddingBottom": "20",
-    "paddingLeft": "20"
-  },
-  "card-poster": {
-    "width": "230",
-    "height": "230",
-    "marginRight": "20"
-  },
-  "card-title": {
-    "fontSize": "26",
-    "color": "#666666",
-    "marginTop": "10",
-    "paddingBottom": "6"
-  },
-  "card-line": {
-    "alignItems": "center",
-    "paddingTop": "5",
-    "paddingBottom": "5"
-  },
-  "card-icon": {
-    "width": "36",
-    "height": "36",
-    "marginRight": "8"
-  },
-  "card-subtitle": {
-    "fontSize": "28",
-    "color": "#07152a"
-  },
-  "card-progress": {
-    "flexDirection": "row",
-    "alignItems": "center",
-    "width": "230",
-    "height": "30",
-    "backgroundColor": "#FEC1C1",
-    "borderRadius": "20",
-    "marginTop": "10",
-    "marginBottom": "10"
-  },
-  "card-progress-inner": {
-    "position": "absolute",
-    "height": "30",
-    "left": 0,
-    "borderRadius": "20",
-    "backgroundColor": "#ff3c32"
-  },
-  "card-got": {
-    "position": "absolute",
-    "left": "8",
-    "lineHeight": "30",
-    "color": "#FFFFFF",
-    "fontSize": "22"
-  },
-  "card-remain": {
-    "position": "absolute",
-    "right": "8",
-    "lineHeight": "30",
-    "color": "#FFFFFF",
-    "fontSize": "22"
-  },
-  "card-info": {
-    "width": "400",
-    "flexDirection": "row",
-    "alignItems": "flex-end"
-  },
-  "card-price": {
-    "fontSize": "52",
-    "color": "#ff3c32",
-    "marginBottom": "-10",
-    "marginTop": "10",
-    "marginRight": "8"
-  },
-  "card-sale-price": {
-    "fontSize": "28",
-    "color": "#999999",
-    "textDecoration": "line-through"
-  },
-  "card-btn": {
-    "position": "absolute",
-    "right": 0,
-    "bottom": 0,
-    "backgroundColor": "#ff5d62",
-    "borderRadius": "8",
-    "width": "125",
-    "height": "52",
-    "justifyContent": "center"
-  },
-  "card-btn-text": {
-    "color": "#FFFFFF",
-    "fontSize": "32",
-    "textAlign": "center"
-  }
-}
-
-/***/ }),
-/* 23 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-exports.default = {
-  props: ['card']
-};
-
-/***/ }),
-/* 24 */
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["card"]
-  }, [_vm._m(0), _c('div', {
-    staticClass: ["row"],
-    staticStyle: {
-      paddingBottom: "18px"
-    }
-  }, [_c('div', {
-    staticClass: ["card-side"]
-  }, [_c('image', {
-    staticClass: ["card-poster"],
-    attrs: {
-      "src": _vm.card.poster
-    }
-  })]), _c('div', {
-    staticClass: ["card-message"]
-  }, [_c('text', {
-    staticClass: ["card-title"]
-  }, [_vm._v(_vm._s(_vm.card.title))]), _c('div', {
-    staticClass: ["card-line", "row"]
-  }, [_c('image', {
-    staticClass: ["card-icon"],
-    attrs: {
-      "src": "//ossgw.alicdn.com/img/upload/0a4946e164acd1f81e97ddbc048afcc5/Group13-69-69.png@22w_22h_80Q.png"
-    }
-  }), _c('text', {
-    staticClass: ["card-subtitle"]
-  }, [_vm._v(_vm._s(_vm.card.subtitle1))])]), _c('div', {
-    staticClass: ["card-line", "row"]
-  }, [_c('image', {
-    staticClass: ["card-icon"],
-    attrs: {
-      "src": "//ossgw.alicdn.com/img/upload/0a4946e164acd1f81e97ddbc048afcc5/Group13-69-69.png@22w_22h_80Q.png"
-    }
-  }), _c('text', {
-    staticClass: ["card-subtitle"]
-  }, [_vm._v(_vm._s(_vm.card.subtitle2))])]), _c('div', {
-    staticClass: ["card-progress", "row"]
-  }, [_c('div', {
-    staticClass: ["card-progress-inner"],
-    style: {
-      width: _vm.card.progress * 230 / 100
-    }
-  }), _c('text', {
-    staticClass: ["card-got"]
-  }, [_vm._v("已抢 " + _vm._s(_vm.card.got) + " 件")]), _c('text', {
-    staticClass: ["card-remain"]
-  }, [_vm._v(_vm._s(_vm.card.progress) + " %")])]), _c('div', {
-    staticClass: ["card-info", "row"]
-  }, [_c('text', {
-    staticClass: ["card-price"]
-  }, [_vm._v("¥ " + _vm._s(_vm.card.price.real))]), _c('text', {
-    staticClass: ["card-sale-price"]
-  }, [_vm._v("¥ " + _vm._s(_vm.card.price.sale))]), _vm._m(1)])])])])
-},"@render":function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["card"],
-    attrs: {
-      "@isComponentRoot": true,
-      "@templateId": _vm._uid,
-      "@componentProps": _vm.$props || {}
-    }
-  }, [_c('div', {
-    staticStyle: {
-      height: "60px",
-      paddingLeft: "30"
-    }
-  }, [_c('image', {
-    staticClass: ["card-banner"],
-    attrs: {
-      "src": "//img.alicdn.com/tfs/TB1moeURFXXXXasXXXXXXXXXXXX-390-105.png"
-    }
-  })]), _c('div', {
-    staticClass: ["row"],
-    staticStyle: {
-      paddingBottom: "18px"
-    }
-  }, [_c('div', {
-    staticClass: ["card-side"]
-  }, [_c('image', {
-    staticClass: ["card-poster"],
-    attrs: {
-      "src": {
-        "@binding": "card.poster"
-      }
-    }
-  })]), _c('div', {
-    staticClass: ["card-message"]
-  }, [_c('text', {
-    staticClass: ["card-title"],
-    attrs: {
-      "value": {
-        "@binding": "card.title"
-      }
-    }
-  }), _c('div', {
-    staticClass: ["card-line", "row"]
-  }, [_c('image', {
-    staticClass: ["card-icon"],
-    attrs: {
-      "src": "//ossgw.alicdn.com/img/upload/0a4946e164acd1f81e97ddbc048afcc5/Group13-69-69.png@22w_22h_80Q.png"
-    }
-  }), _c('text', {
-    staticClass: ["card-subtitle"],
-    attrs: {
-      "value": {
-        "@binding": "card.subtitle1"
-      }
-    }
-  })]), _c('div', {
-    staticClass: ["card-line", "row"]
-  }, [_c('image', {
-    staticClass: ["card-icon"],
-    attrs: {
-      "src": "//ossgw.alicdn.com/img/upload/0a4946e164acd1f81e97ddbc048afcc5/Group13-69-69.png@22w_22h_80Q.png"
-    }
-  }), _c('text', {
-    staticClass: ["card-subtitle"],
-    attrs: {
-      "value": {
-        "@binding": "card.subtitle2"
-      }
-    }
-  })]), _c('div', {
-    staticClass: ["card-progress", "row"]
-  }, [_c('div', {
-    staticClass: ["card-progress-inner"],
-    staticStyle: {
-      "width": {
-        "@binding": "card.progress * 230 / 100"
-      }
-    }
-  }), _c('text', {
-    staticClass: ["card-got"],
-    attrs: {
-      "value": ["已抢 ", {
-        "@binding": "card.got"
-      }, " 件"]
-    }
-  }), _c('text', {
-    staticClass: ["card-remain"],
-    attrs: {
-      "value": [{
-        "@binding": "card.progress"
-      }, " %"]
-    }
-  })]), _c('div', {
-    staticClass: ["card-info", "row"]
-  }, [_c('text', {
-    staticClass: ["card-price"],
-    attrs: {
-      "value": ["¥ ", {
-        "@binding": "card.price.real"
-      }]
-    }
-  }), _c('text', {
-    staticClass: ["card-sale-price"],
-    attrs: {
-      "value": ["¥ ", {
-        "@binding": "card.price.sale"
-      }]
-    }
-  }), _c('div', {
-    staticClass: ["card-btn"]
-  }, [_c('text', {
-    staticClass: ["card-btn-text"],
-    attrs: {
-      "value": "马上抢"
-    }
-  })])])])])])
+    }, [_c('div', {
+      staticClass: ["list_panel"]
+    }, [_c('text', {
+      staticClass: ["work_exp_com"]
+    }, [_vm._v(_vm._s(num['com']))]), _c('text', {
+      staticClass: ["work_exp_title"]
+    }, [_vm._v(_vm._s(num['title']))]), _c('text', {
+      staticClass: ["work_exp_content"]
+    }, [_vm._v(_vm._s(num['desc']))])])])
+  }))]), _vm._m(1)])
 },staticRenderFns: [function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticStyle: {
-      height: "60px",
-      paddingLeft: "30"
-    }
-  }, [_c('image', {
-    staticClass: ["card-banner"],
+    staticClass: ["header"]
+  }, [_c('div', [_c('text', {
+    staticClass: ["text_usrname"]
+  }, [_vm._v("周卓潜")]), _c('text', {
+    staticClass: ["text_company"]
+  }, [_vm._v("拓边/项目组长 ")]), _c('text', {
+    staticClass: ["text_usr_exp"]
+  }, [_vm._v("7年工作经验/本科/28岁 ")])]), _c('image', {
+    staticClass: ["avatar"],
     attrs: {
-      "src": "//img.alicdn.com/tfs/TB1moeURFXXXXasXXXXXXXXXXXX-390-105.png"
+      "src": "http://www.lgstatic.com/i/image2/M01/AC/4E/CgoB5lvxIMyAc6ZxAABPlqgpMDw351.png"
     }
   })])
 },function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: ["card-btn"]
-  }, [_c('text', {
-    staticClass: ["card-btn-text"]
-  }, [_vm._v("马上抢")])])
-}]}
-module.exports.render._withStripped = true
-
-/***/ }),
-/* 25 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var __vue_exports__, __vue_options__
-var __vue_styles__ = []
-
-/* styles */
-__vue_styles__.push(__webpack_require__(26)
-)
-
-/* script */
-__vue_exports__ = __webpack_require__(27)
-
-/* template */
-var __vue_template__ = __webpack_require__(28)
-__vue_options__ = __vue_exports__ = __vue_exports__ || {}
-if (
-  typeof __vue_exports__.default === "object" ||
-  typeof __vue_exports__.default === "function"
-) {
-if (Object.keys(__vue_exports__).some(function (key) { return key !== "default" && key !== "__esModule" })) {console.error("named exports are not supported in *.vue files.")}
-__vue_options__ = __vue_exports__ = __vue_exports__.default
-}
-if (typeof __vue_options__ === "function") {
-  __vue_options__ = __vue_options__.options
-}
-__vue_options__.__file = "/Users/nobbyheell/Documents/workspace/weex_first_app/src/Floor.vue"
-__vue_options__.render = __vue_template__.render
-__vue_options__["@render"] = __vue_template__["@render"]
-__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-__vue_options__._scopeId = "data-v-6ae799e3"
-__vue_options__.style = __vue_options__.style || {}
-__vue_styles__.forEach(function (module) {
-  for (var name in module) {
-    __vue_options__.style[name] = module[name]
-  }
-})
-if (typeof __register_static_styles__ === "function") {
-  __register_static_styles__(__vue_options__._scopeId, __vue_styles__)
-}
-
-module.exports = __vue_exports__
-
-
-/***/ }),
-/* 26 */
-/***/ (function(module, exports) {
-
-module.exports = {
-  "row": {
-    "flexDirection": "row"
-  },
-  "floor": {
-    "marginBottom": "15",
-    "backgroundColor": "#FFFFFF"
-  },
-  "floor-title": {
-    "fontSize": "40",
-    "textAlign": "center",
-    "paddingTop": "35",
-    "paddingBottom": "25"
-  },
-  "floor-desc": {
-    "lines": 2,
-    "color": "#999999",
-    "fontSize": "30",
-    "paddingLeft": "30",
-    "paddingRight": "30"
-  },
-  "floor-image-box": {
-    "flexDirection": "row",
-    "justifyContent": "space-between",
-    "marginTop": "20"
-  },
-  "floor-image": {
-    "width": "245",
-    "height": "245"
-  },
-  "floor-comment": {
-    "color": "#52bfe6",
-    "fontSize": "32",
-    "textAlign": "right",
-    "paddingRight": "50",
-    "marginTop": "25",
-    "marginBottom": "20"
-  }
-}
-
-/***/ }),
-/* 27 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-exports.default = {
-  props: ['floor']
-};
-
-/***/ }),
-/* 28 */
-/***/ (function(module, exports) {
-
-module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["floor"]
-  }, [_c('text', {
-    staticClass: ["floor-title"]
-  }, [_vm._v(_vm._s(_vm.floor.title))]), _c('text', {
-    staticClass: ["floor-desc"],
-    attrs: {
-      "lines": "2"
-    }
-  }, [_vm._v(_vm._s(_vm.floor.desc))]), _c('div', {
-    staticClass: ["floor-image-box", "row"]
-  }, _vm._l((_vm.floor.pictures), function(source, x) {
-    return _c('image', {
-      key: x,
-      staticClass: ["floor-image"],
-      attrs: {
-        "src": source
-      }
-    })
-  })), (_vm.floor.count) ? _c('text', {
-    staticClass: ["floor-comment"]
-  }, [_vm._v(_vm._s(_vm.floor.count) + " 人说好")]) : _vm._e()])
-},"@render":function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
-  return _c('div', {
-    staticClass: ["floor"],
-    attrs: {
-      "@isComponentRoot": true,
-      "@templateId": _vm._uid,
-      "@componentProps": _vm.$props || {}
-    }
-  }, [_c('text', {
-    staticClass: ["floor-title"],
-    attrs: {
-      "value": {
-        "@binding": "floor.title"
-      }
-    }
+    staticClass: ["block"]
+  }, [_c('div', {
+    staticClass: ["sep_line_short"]
   }), _c('text', {
-    staticClass: ["floor-desc"],
-    attrs: {
-      "lines": "2",
-      "value": {
-        "@binding": "floor.desc"
-      }
-    }
-  }), _c('div', {
-    staticClass: ["floor-image-box", "row"]
-  }, [_c('image', {
-    key: {
-      "@binding": "x"
-    },
-    staticClass: ["floor-image"],
-    attrs: {
-      "src": {
-        "@binding": "source"
-      },
-      "[[repeat]]": {
-        "@expression": "floor.pictures",
-        "@alias": "source",
-        "@index": "x"
-      }
-    }
-  })]), _c('text', {
-    staticClass: ["floor-comment"],
-    attrs: {
-      "[[match]]": "floor.count",
-      "value": [{
-        "@binding": "floor.count"
-      }, " 人说好"]
-    }
-  })])
-},staticRenderFns: []}
+    staticClass: ["block_title"]
+  }, [_vm._v("教育经历")]), _c('div', {
+    staticClass: ["list_panel"]
+  }, [_c('text', {
+    staticClass: ["work_exp_com"]
+  }, [_vm._v("厦门大学嘉庚学院")]), _c('text', {
+    staticClass: ["work_exp_title"]
+  }, [_vm._v("本科    计算机科学与技术")]), _c('text', {
+    staticClass: ["work_exp_content"]
+  }, [_vm._v("2008-2012")])])])
+}]}
 module.exports.render._withStripped = true
 
 /***/ })
