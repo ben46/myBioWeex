@@ -8,17 +8,17 @@
 
 #import <Foundation/Foundation.h>
 
-#define CURRENT_IP @"your computer device ip"
+#define CURRENT_IP @"192.168.31.163"
 
 #if TARGET_IPHONE_SIMULATOR
-    #define DEMO_HOST @"127.0.0.1"
+    #define DEMO_HOST @"192.168.31.163"
 #else
     #define DEMO_HOST CURRENT_IP
 #endif
 
 #define DEMO_URL(path) [NSString stringWithFormat:@"http://%@:12580/%s", DEMO_HOST, #path]
 
-#define HOME_URL [NSString stringWithFormat:@"http://%@:8080/dist/index.js", DEMO_HOST]
+#define HOME_URL [NSString stringWithFormat:@"http://%@:8081/dist/index.js", DEMO_HOST]
 
 #define BUNDLE_URL [NSString stringWithFormat:@"file://%@/bundlejs/index.js",[NSBundle mainBundle].bundlePath]
 

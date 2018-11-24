@@ -24,6 +24,7 @@
     url = [NSURL URLWithString:BUNDLE_URL];
 #endif
     NSString * entryURL = [[NSBundle mainBundle] objectForInfoDictionaryKey:@"WXEntryBundleURL"];
+    NSLog(@"entryURL");
     if (entryURL) {
         if ([entryURL hasPrefix:@"http"]) {
             url = [NSURL URLWithString:entryURL];
@@ -37,6 +38,8 @@
 #endif
     
     [self initWeexSDK];
+    url = [NSURL URLWithString:HOME_URL];
+
     [self loadCustomContainWithScannerWithUrl:url];
 }
 

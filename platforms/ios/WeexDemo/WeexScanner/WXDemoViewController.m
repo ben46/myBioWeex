@@ -59,6 +59,8 @@
         [_hotReloadSocket open];
     }
 
+//    [self loadLocalBundle:[NSURL URLWithString:@"index.js"]];
+    
 #endif
     
     [self render];
@@ -232,7 +234,7 @@
 }
 
 #pragma mark - localBundle
-/*- (void)loadLocalBundle:(NSURL *)url
+- (void)loadLocalBundle:(NSURL *)url
 {
     NSURL * localPath = nil;
     NSMutableArray * pathComponents = nil;
@@ -243,14 +245,14 @@
         
         NSString *filePath = [NSString stringWithFormat:@"%@/%@",[NSBundle mainBundle].bundlePath,[pathComponents componentsJoinedByString:@"/"]];
         localPath = [NSURL fileURLWithPath:filePath];
-    }else {
+    } else {
         NSString *filePath = [NSString stringWithFormat:@"%@/bundlejs/index.js",[NSBundle mainBundle].bundlePath];
         localPath = [NSURL fileURLWithPath:filePath];
     }
     
     NSString *bundleUrl = [NSURL fileURLWithPath:[NSString stringWithFormat:@"%@/bundlejs/",[NSBundle mainBundle].bundlePath]].absoluteString;
      [_instance renderWithURL:localPath options:@{@"bundleUrl":bundleUrl} data:nil];
-}*/
+}
 
 #pragma mark - load local device bundle
 - (NSURL*)testURL:(NSString*)url

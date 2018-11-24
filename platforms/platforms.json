@@ -1,3 +1,10 @@
 {
+    "AppName": "WeexDemo",
+    "Version": "1.1",
+    "BuildVersion": "1",
+    "AppId": "com.migungun.weexdemo",
+    "CodeSign": "",
+    "Profile": "",
+    "WeexBundle": "index.js",
     "ios": "4.1.6"
 }

@@ -4,3 +4,6 @@
 .zuul.yml
 .idea
 *.lock
+*.xcbkptlist
+*.xcactivitylog
+platforms/ios/build
